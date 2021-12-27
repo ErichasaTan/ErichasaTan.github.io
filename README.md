@@ -1,2 +1,3 @@
-# portfolio_website
-A e-portfolio made during my winter break!
+# My portfolio website
+Eric Tan's e-portfolio
+Developed using HTML, CSS and JavaScript
