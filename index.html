@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Tan · Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="about-me">
+        <nav>
+            <div class="personal_logo">Eric Tan</div>
+            <ul class="nav_link--list">
+                <li>
+                    <a href="#languages" class="
+                    nav_link--anchor
+                    link_hover-effect
+                    link_hover-effect--black
+                    ">Languages</a>
+                </li>
+                <li>
+                    <a href="#projects" class="
+                    nav_link--anchor
+                    link_hover-effect
+                    link_hover-effect--black
+                    ">Projects</a>
+                </li>
+                <li>
+                    <a href="mailto:erictee@hotmail.ca" class="
+                    nav_link--anchor
+                    nav_link--anchor-primary
+                    ">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex flex-1">
+        <div class="about-me_info row">
+            <div class="about-me_info--container">
+                <figure class="about-me_picture--mask">
+                    <img src="./assets/artona3.png" class="about-me__picture" alt="Picture of Me">
+                </figure>
+                <h1 class="about-me_info-title">
+                    Hey! I'm <span class="text--purple">Eric Tan </span><span class="wave"> 👋</span>
+                </h1>
+                <p class="about-me_info-para">
+                    I'm a <strong class="text--purple">full-stack software engineer</strong> with a strong passion for building responsive and performant web applications to make tedious tasks simpler, more convenient, and more effective.
+                </p>
+                <div class="about-me__links">
+                    <a href="https://www.linkedin.com/in/eric-tan-6b2866201/" target="_blank" class="about-me__link">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/ErichasaTan" target="_blank" class="about-me__link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:erictee@hotmail.ca" class="about-me__link"> 
+                      <i class="far fa-envelope"></i>
+                    </a>
+                    <a href="./assets/resume.png" target="_blank" class="about-me__link">
+                      <i class="fas fa-file-pdf"></i>
+                    </a>
+                  </div>
+            </div>
+            <figure class="about-me_img--container">
+                <img src="./assets/undraw_picture.png" class="about-me_img" alt=""> 
+            </figure>
+        </div>
+    </div>
+    </section>
+    <section id="languages">
+        <div class="container">
+            <div class="row">
+                <h1 class="section_title">This is my <span class="text--purple">technology stack</span></h1>
+                <div class="language_list">
+                    <div class="language"> 
+                        <figure class="language_img--wrapper">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">HTML</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">CSS</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">JavaScript</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">TypeScript</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">React</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="./assets/sql_logo.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">MySQL</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="./assets/java_logo.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">Java</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language_img--wrapper">
+                            <img src="./assets/cpp_logo.svg.png" alt="" class="language_img" >
+                        </figure>
+                        <span class ="language_name">C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section_title">Here are some of my <span class="text--purple">projects</span></h1>
+                <ul class="project_list">
+                    <li class="project">
+                        <div class="project_wrapper">
+                            <img src="./assets/vocabwar.png" class="project_img" alt="Grocery Store project">
+                            <div class="project_description">
+                                <h3 class="project_description--title">VocabWar</h3>
+                                <h4 class="project_description--sub-title">HTML, CSS, JavaScript, ReactJS, NPM, Firebase</h4>
+                                <p class="project_description--para">VocabWar is a competitive two-player game where players battle using their vocabulary. Players can create or join game lobbies to easily engage in battle with friends and family. The letters are randomly generated for each lobby and to win, you must create more words than your opponent in the given time limit.
+                                </p>
+                                <div class="project_description--links">
+                                    <a href="https://github.com/ParthCv/COMP-2800-Team-BBY-16-VocabWar.git" target="_blank" class="project_description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://vocabwar.netlify.app/" target="_blank" class="project_description--link">
+                                        <i class="fas fa-link"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project_wrapper">
+                            <img src="./assets/smarket.png" class="project_img" alt="Grocery Store project">
+                            <div class="project_description">
+                                <h3 class="project_description--title">Smarket</h3>
+                                <h4 class="project_description--sub-title">HTML, CSS, JavaScript, Node.JS, Firebase</h4>
+                                <p class="project_description--para">Smarket is a grocery pickup application to encourage social distancing during the 2020 COVID-19 Pandemic. Smarket allows the user to grocery shop in the comfort of their home and pick up the order at the store for a quick and contactactless experience to ensure social distancing. The result is a safe community while helping store workers keep a steady income.  
+                                </p>
+                                <div class="project_description--links">
+                                    <a href="https://github.com/joshuakrauchi/Grocery_Pickup" target="_blank" class="project_description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="project_description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project_wrapper">
+                            <img src="./assets/timesheet.PNG" class="project_img" alt="Grocery Store project">
+                            <div class="project_description">
+                                <h3 class="project_description--title">Timesheet</h3>
+                                <h4 class="project_description--sub-title">XHTML, CSS, JSF, Java, REST API, MySQL</h4>
+                                <p class="project_description--para">Timesheet is a JSF application developed to display an employee's or admin's information and timesheet. All information including login credentials, personal information and timesheet hours are recoreded and stored in MySQL. Timesheet uses REST API and allows for interation with RESTful web services.
+                                </p>
+                                <div class="project_description--links">
+                                    <a href="https://gitlab.infoteach.ca/TanE/comp3910-assignment-3.git" target="_blank" class="project_description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="project_description--link">
+                                        <i class="fas fa-link"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row footer_row">
+            <a href="#" class="footer_anchor">
+                <figure class="footer_logo">
+                    <img src="./assets/ETWhite.png" class="footer_logo--img" alt="My Logo">
+                </figure>
+                <span class="footer_logo--popper">
+                    Top
+                    <i class="fas fa-arrow-up"></i>
+                </span>
+            </a>
+            <div class="footer_social--list">
+                <a href="https://www.linkedin.com/in/eric-tan-6b2866201/" class="
+                footer_social--link
+                link_hover-effect
+                link_hover-effect--white"
+                target="_blank">LinkedIn</a>
+                <a href="https://github.com/ErichasaTan" class="
+                footer_social--link
+                link_hover-effect
+                link_hover-effect--white"
+                target="_blank">GitHub</a>
+                <a href="mailto:erictee@hotmail.ca" class="
+                footer_social--link
+                link_hover-effect
+                link_hover-effect--white"
+                target="_blank">Email</a>
+                <a href="./assets/resume.png" class="
+                footer_social--link
+                link_hover-effect
+                link_hover-effect--white"
+                target="_blank">Resume</a>
+            </div>
+            <div class="footer_copyright">Copyright © 2021 Eric Tan</div>
+        </div>
+    </footer>
+</body>
+</html>
