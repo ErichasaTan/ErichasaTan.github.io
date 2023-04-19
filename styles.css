@@ -203,7 +203,7 @@ nav {
 
 .about-me__link {
     font-size: 20px;
-    color: #242424;
+    color: #164e98;
     text-decoration: none;
     padding: 0 16px;
 }
@@ -315,17 +315,37 @@ nav {
 
 /** Work Experience **/
 
-.work {
+.work_experience {
     margin-bottom: 135px;
 }
 
-.work:last-child {
+.work_experience:last-child {
     margin-bottom: 40px;
 }
 
-.work_wrapper {
+.work_img {
+    width: 100%;
+    transition: all 500ms ease;
+}
 
-    
+.work_wrapper {
+    display: flex;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.work_wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    transition: all 450ms ease;
+    z-index: 2;
+    transform: translateY(100%);
 }
 
 .work_list {
@@ -333,15 +353,28 @@ nav {
 }
 
 .work_description {
-
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    right: 90px;
+    transform: translateY(100%);
+    z-index: 3;
+    opacity: 0;
+    transition: transform 450ms, opacity 300ms;
+    opacity: 1;
+    transform: translateY(-50%);
 }
 
 .work_description--title,
 .work_description--sub-title,
 .work_description--para,
 .work_description--link {
-    text-align: left;
+    text-align: center;
     color: black;
+}
+
+.work_description--sub-title {
+    margin-bottom: 4px;
 }
 
 .work_description--title {
