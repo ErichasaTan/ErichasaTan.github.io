@@ -203,7 +203,7 @@ nav {
 
 .about-me__link {
     font-size: 20px;
-    color: #164e98;
+    color: #164e98; 
     text-decoration: none;
     padding: 0 16px;
 }
@@ -211,6 +211,7 @@ nav {
 .about-me__links {
     animation: fade-up 650ms 800ms backwards;
 }
+
 
 /** Animation for the about me **/ 
 @keyframes fade-up {
